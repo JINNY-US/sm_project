@@ -9,9 +9,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="192dp" />
+        android:text="어디 가게?"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="66dp" />
 
     <TextView
         android:id="@+id/textView2"
