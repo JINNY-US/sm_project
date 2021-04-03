@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">sm_project</string>
+    <color name="main_yellow">#fff899</color>
+    <color name="main_orange">#ec6941</color>
 </resources>
