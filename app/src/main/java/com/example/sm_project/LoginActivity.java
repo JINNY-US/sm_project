@@ -9,13 +9,14 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
-    Button login_btn, join_btn;
-    TextView id, pass, wng_tb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        Button login_btn, join_btn;
+        TextView id, pass, wng_tb;
 
 
         login_btn = findViewById(R.id.login_btn);

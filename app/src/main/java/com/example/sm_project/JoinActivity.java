@@ -11,13 +11,15 @@ import android.widget.TextView;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class JoinActivity extends AppCompatActivity {
-    Button check_btn, submit_btn;
-    TextView J_id, J_pass, J_pass_cnf, J_name, J_email;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_join);
+
+        Button check_btn, submit_btn;
+        TextView J_id, J_pass, J_pass_cnf, J_name, J_email;
 
         check_btn = findViewById(R.id.check_btn);
         submit_btn = findViewById(R.id.join_submit_btn);
