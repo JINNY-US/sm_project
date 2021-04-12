@@ -9,22 +9,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sm_project">
-        <activity android:name=".JoinActivity"
-            android:theme="@style/MainTheme"></activity>
+        <activity android:name=".SettingActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            ></activity>
+        <activity
+            android:name=".MypageActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LikepageActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ReviewActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".JoinActivity"
+            android:theme="@style/MainTheme" />
         <activity
             android:name=".LoginActivity"
             android:theme="@style/MainTheme" />
-        <activity android:name=".MainActivity"
-            android:theme="@style/MainTheme"/>
         <activity
-            android:name=".SplashActivity"
-            android:theme="@style/SplashTheme">
+            android:name=".MainActivity"
+            android:theme="@style/MainTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme" />
     </application>
 
 </manifest>

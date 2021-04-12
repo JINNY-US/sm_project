@@ -6,5 +6,12 @@
     <color name="dark_orange">#D64031</color>
     <string name="id">아이디</string>
     <string name="passward">비밀번호</string>
+    <string name="userid">userid</string>
+
+    <!-- -->
+    <string name="userid_re">userid_re</string>
+    <string name="name">음식점</string>
+    <string name="re_button">댓글남기기</string>
+    <string name="userid1_re">userid1_re</string>
 
 </resources>

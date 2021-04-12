@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 public class JoinActivity extends AppCompatActivity {
     Button check_btn, submit_btn;
     TextView J_id, J_pass, J_pass_cnf, J_name, J_email;
