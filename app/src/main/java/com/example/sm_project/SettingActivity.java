@@ -11,6 +11,13 @@ public class SettingActivity extends AppCompatActivity {
     Button setting_cancle_btn, setting_changre_btn;
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(getApplication(), MypageActivity.class));
+        finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
@@ -34,5 +41,7 @@ public class SettingActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+
     }
 }

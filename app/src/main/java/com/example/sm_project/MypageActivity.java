@@ -10,15 +10,20 @@ import android.widget.Button;
 
 public class MypageActivity extends AppCompatActivity {
 
+    Button go_to_setting, go_to_likepage, go_to_cost_setting;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mypage);
-
-        Button go_to_setting = findViewById(R.id.go_to_setting);
-
         Toolbar tb = (Toolbar) findViewById(R.id.mypage_toolbar);
         setSupportActionBar(tb);
+
+        go_to_setting = findViewById(R.id.go_to_setting);
+        go_to_likepage = findViewById(R.id.go_to_likepage2);
+        go_to_cost_setting = findViewById(R.id.go_to_cost_setting);
 
         go_to_setting.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,6 +32,30 @@ public class MypageActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        go_to_likepage.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplication(), LikepageActivity.class));
+                finish();
+            }
+        });
+
+        go_to_cost_setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplication(), CostSettingActivity.class));
+                finish();
+            }
+        });
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(getApplication(), MainActivity.class));
+        finish();
     }
 
 }

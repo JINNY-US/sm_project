@@ -2,10 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
         <item
-            android:id="@+id/action_setting"
-            android:icon="@drawable/settings_w"
-            android:title="settingh"
+            android:id="@+id/menu_bookmark"
+            android:title="bookmark"
+            android:icon="@drawable/ic_action_mypage"
             app:showAsAction="always"/>
 </menu>
 

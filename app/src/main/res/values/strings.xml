@@ -14,5 +14,7 @@
     <string name="name">음식점</string>
     <string name="re_button">댓글남기기</string>
     <string name="userid1_re">userid1_re</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

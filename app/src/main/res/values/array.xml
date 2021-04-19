@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mode_array">
+        <item >식당 위주</item>
+        <item>쇼핑 위주</item>
+        <item>카페 위주</item>
+        <item>주점 위주</item>
+        <item>기타(노래방, 이색카페 등) 위주</item>
+        <item>직접 지정</item>
+    </string-array>
+</resources>
