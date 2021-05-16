@@ -9,10 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sm_project">
-        <activity android:name=".CostSettingActivity"
+        <activity android:name=".SearchActivity"
+            android:label="검색"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name=".SellerSettingActivity"
             android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".activity_test"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ProductAddActivity"
+            android:label="가격 정보 입력"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".SellerMainActivity"
+            android:label="내 가게 정보"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".CostSettingActivity"
+            android:theme="@style/NoActionBar"></activity>
         <activity
             android:name=".SettingActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
@@ -33,17 +55,10 @@
             android:theme="@style/MainTheme" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/NoActionBar"></activity>
+            android:theme="@style/NoActionBar" />
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/SplashTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
+            android:theme="@style/SplashTheme" />
     </application>
 
 </manifest>
